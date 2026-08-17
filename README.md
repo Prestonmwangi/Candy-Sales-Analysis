@@ -1,19 +1,16 @@
 # Candy Sales Analysis – Power BI Dashboard
 ## Table of Contents
-- Project Overview
 - Business Problem
 - Project Objectives
+- Project Overview
 - Dashboard Pages
     - Executive Sales & Margin Performance
     - Logistics & Supply Chain Operations
+- Key Business Insights
 - Data Model & DAX
- -Key Business Insights
+- Repository Structure
 - How to Use
 - Tools
-
-## Project Overview
-
-An interactive Power BI dashboard that provides a clear view of sales performance, profitability, and supply chain operations, transforming transactional data into actionable financial, operational, and geographic insights.
 
 ## Business Problem
 
@@ -25,6 +22,10 @@ The business requires a clear view of sales performance, profitability, product 
 * Analyze order volume, costs, and average order value.
 * Track sales and profit trends over time.
 * Provide an interactive dashboard for data-driven decision-making.
+
+## Project Overview
+
+An interactive Power BI dashboard that provides a clear view of sales performance, profitability, and supply chain operations, transforming transactional data into actionable financial, operational, and geographic insights.
 
 ## Dashboard Pages
 ### Executive Sales & Margin Performance
@@ -41,14 +42,6 @@ The page focuses on order activity and operational performance, providing insigh
 ![Logistics Efficiency & Supply Chain Operations](https://github.com/Prestonmwangi/Candy-Sales-Analysis/blob/main/Images/Logistics%20Efficiency%20%26%20Supply%20Chain%20Operations.png)
 *Operational overview showing order volume, costs, average order value, and overall sales activity.*
 
-## Data Model & DAX
-
-The analysis was built using a star schema, with the sales data supported by related dimensions for products, dates, and other business attributes.
-
-Key DAX measures include **Total Revenue, Total Cost, Gross Profit, Gross Profit Margin %, Total Orders, Average Order Value, and Total Units Sold.**
-
-These measures provide the foundation for evaluating the business's financial performance, profitability, and order activity throughout the dashboard.
-
 ## Key Business Insights
 
 * Strong overall profitability: $141.78K in revenue generated $93.44K in gross profit, resulting in a 65.91% gross profit margin.
@@ -56,6 +49,14 @@ These measures provide the foundation for evaluating the business's financial pe
 * Cost structure supports strong margins: $48.34K in total costs represents a relatively small proportion of revenue, supporting the business's strong overall gross margin.
 * Revenue concentration across products highlights potential dependency risks, where a small group of high-performing products particularly **chocolate** can account for a disproportionate share of sales.
 * Standard Class dominates shipping activity, indicating a strong reliance on the most commonly used delivery method.
+
+## Data Model & DAX
+
+The analysis was built using a star schema, with the sales data supported by related dimensions for products, dates, and other business attributes.
+
+Key DAX measures include **Total Revenue, Total Cost, Gross Profit, Gross Profit Margin %, Total Orders, Average Order Value, and Total Units Sold.**
+
+These measures provide the foundation for evaluating the business's financial performance, profitability, and order activity throughout the dashboard.
 
 ## Repository Structure
 ```text
