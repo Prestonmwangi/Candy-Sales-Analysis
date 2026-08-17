@@ -57,6 +57,15 @@ These measures provide the foundation for evaluating the business's financial pe
 * Revenue concentration across products highlights potential dependency risks, where a small group of high-performing products particularly **chocolate** can account for a disproportionate share of sales.
 * Standard Class dominates shipping activity, indicating a strong reliance on the most commonly used delivery method.
 
+## Repository Structure
+```text
+Candy-Sales-Analysis/
+├── Data/
+├── Images/
+├── Maven Toys Sales Analysis.pbix
+└── README.md
+```
+
 ## How to Use
 
 Open the .pbix file in Power BI Desktop, then use the available filters and dashboard navigation to explore the analysis.
