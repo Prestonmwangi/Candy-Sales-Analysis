@@ -1,43 +1,68 @@
 # Candy Sales Analysis – Power BI Dashboard
+## Table of Contents
+- Project Overview
+- Business Problem
+- Project Objectives
+- Dashboard Pages
+    - Executive Sales & Margin Performance
+    - Logistics & Supply Chain Operations
+- Data Model & DAX
+ -Key Business Insights
+- How to Use
+- Tools
 
 ## Project Overview
 
-An interactive Power BI dashboard which analyzes sales performance, profitability, and supply chain operations. The report converts the transactional data into business insights covering the financial, operational, and geographic aspects.
-## Dashboard Pages
+An interactive Power BI dashboard that provides a clear view of sales performance, profitability, and supply chain operations, transforming transactional data into actionable financial, operational, and geographic insights.
 
+## Business Problem
+
+The business requires a clear view of sales performance, profitability, product performance, and operations to identify key performance drivers and areas for improvement.
+
+## Project Objectives
+* Measure sales and profitability performance.
+* Identify top-performing products and locations.
+* Analyze order volume, costs, and average order value.
+* Track sales and profit trends over time.
+* Provide an interactive dashboard for data-driven decision-making.
+
+## Dashboard Pages
 ### Executive Sales & Margin Performance
 
-The page gives a general overview of the business's financial performance, enabling stakeholders to evaluate revenue, profitability, target achievement, and the degree of sales concentration by geographic area. It compares revenue with targets for each division, monitors monthly revenue and gross profit margins, and identifies the cities and locations that are performing best.
+The page provides a high-level overview of the business's financial performance and profitability, enabling stakeholders to evaluate revenue generation, gross profit, profit margins, and sales performance across products and periods. It highlights the overall financial position of the business while making it easier to identify strong-performing product categories and sales trends.
 
 ![Executive Sales & Margin Performance](https://github.com/Prestonmwangi/Candy-Sales-Analysis/blob/main/Images/Executive%20Sales%20%26%20Margin%20Performance.png)
-*Executive overview showing revenue, profitability, target performance, monthly trends, and geographic sales performance.*
+*Executive overview showing revenue, gross profit, profit margin, product performance, and sales trends.*
 
 ### Logistics & Supply Chain Operations
 
-The page looks at **operational performance and order activity**, giving information about order volumes, costs, the average order value, and shipping patterns. It compares operational performance between divisions and geographic locations as well as showing how orders are distributed among different shipping modes.
+The page focuses on order activity and operational performance, providing insights into order volumes, total costs, average order value, and overall sales activity. It helps evaluate how efficiently orders are being generated and how costs relate to the volume and value of sales.
 
 ![Logistics Efficiency & Supply Chain Operations](https://github.com/Prestonmwangi/Candy-Sales-Analysis/blob/main/Images/Logistics%20Efficiency%20%26%20Supply%20Chain%20Operations.png)
-*Operational overview showing order volume, costs, average order value, shipping modes, and geographic order distribution.*
+*Operational overview showing order volume, costs, average order value, and overall sales activity.*
 
 ## Data Model & DAX
 
-It was built on a star schema with the Fact_Sales table supported by dimensions relating to customer, date, product, geography, and factory.
+The analysis was built using a star schema, with the sales data supported by related dimensions for products, dates, and other business attributes.
 
-The key measures in respect of the DAX are **Total Revenue, Total Cost, Gross Profit, Gross Profit Margin %, Total Orders, Average Order Value, Total Units Sold, and Total Target**.
+Key DAX measures include **Total Revenue, Total Cost, Gross Profit, Gross Profit Margin %, Total Orders, Average Order Value, and Total Units Sold.**
 
-Key DAX measures include **Total Revenue, Total Cost, Gross Profit, Gross Profit Margin %, Total Orders, Average Order Value, Total Units Sold, and Total Target**.
+These measures provide the foundation for evaluating the business's financial performance, profitability, and order activity throughout the dashboard.
 
 ## Key Business Insights
 
-* **Chocolate** leads in revenue and order volume.
-* Gross margins remain consistently strong across periods.
-* **Standard Class** is the dominant shipping method.
-* Revenue is concentrated among a small number of high-performing cities.
+* Strong overall profitability: $141.78K in revenue generated $93.44K in gross profit, resulting in a 65.91% gross profit margin.
+* Product performance is uneven: Sales and profitability vary across products, highlighting opportunities to prioritize high-performing products and investigate weaker performers.
+* Cost structure supports strong margins: $48.34K in total costs represents a relatively small proportion of revenue, supporting the business's strong overall gross margin.
+* Revenue concentration across products highlights potential dependency risks, where a small group of high-performing products particularly **chocolate** can account for a disproportionate share of sales.
+* Standard Class dominates shipping activity, indicating a strong reliance on the most commonly used delivery method.
 
 ## How to Use
 
-Open the `.pbix` file in **Power BI Desktop**, then use the Year and Division filters and dashboard navigation to explore the analysis. Selecting chart elements also enables cross-filtering across visuals.
+Open the .pbix file in Power BI Desktop, then use the available filters and dashboard navigation to explore the analysis.
+
+Selecting chart elements also enables cross-filtering across visuals, allowing users to investigate specific products, periods, and performance trends.
 
 ## Tools
 
-**Power BI · DAX · Power Query · Data Modeling · Data Visualization**
+**SQL · Power BI · DAX · Power Query · Data Modeling · Data Visualization**
